@@ -14,9 +14,9 @@ This is a lightweight Python script that helps SOC Analysts and Cybersecurity pr
 # 📸 Screenshots
 
 - !Reading IP addresses and scanning:
-  (/screenshots/shot-one.png)
+  (screenshots/shot-one.png)
 - !Flagging Suspicious IPs and Saving to Blocklist:
-  (/screenshots/shot-two.png)
+  (screenshots/shot-two.png)
 
 # 🛠️ Tech Stack
 
