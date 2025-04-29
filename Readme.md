@@ -24,3 +24,31 @@ This is a lightweight Python script that helps SOC Analysts and Cybersecurity pr
 - Requests library
 - dotenv for managing API keys securely
 - AbuseIPDB API
+
+⚙️ Setup Instructions
+
+1. Clone this repository or download the project files.
+2. Install the required dependencies:
+
+> pip install requests python-dotenv
+
+3. Create a .env file in the root directory with the following:
+   > API_KEY=your_abuseipdb_api_key
+   > API_URL=https://api.abuseipdb.com/api/v2/check
+
+4.Create an Ip_addresses.txt file and add the IPs you want to check, one per line.
+
+> Example:
+> 8.8.8.8
+> 1.1.1.1
+> 185.107.56.57
+> 209.126.136.5
+
+5. Run the script:
+   > python app.py
+
+📬 Contact
+Feel free to reach out if you have suggestions or want to collaborate!
+
+- LinkedIn : https://www.linkedin.com/in/treasure-odetokun-107a21231/
+- Twitter : https://x.com/Oluwatobicodes

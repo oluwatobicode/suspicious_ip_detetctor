@@ -13,7 +13,7 @@ api_key = os.getenv("API_KEY")
 api_url = os.getenv("API_URL")
 
 
-# Reading my ip-text file
+# Reading my ip-text file from the "IP_addresses.txt" file
 with open('Ip_addresses.txt') as file:
     ip_list = [line.strip() for line in file.readlines()]
 print(ip_list)
