@@ -33,10 +33,13 @@ This is a lightweight Python script that helps SOC Analysts and Cybersecurity pr
 > pip install requests python-dotenv
 
 3. Create a .env file in the root directory with the following:
+
    > API_KEY=your_abuseipdb_api_key
    > API_URL=https://api.abuseipdb.com/api/v2/check
 
-4.Create an Ip_addresses.txt file and add the IPs you want to check, one per line.
+4. Create a api key on Abuse IPdb when you sign up there
+
+5.Create an Ip_addresses.txt file and add the IPs you want to check, one per line.
 
 > Example:
 > 8.8.8.8
@@ -44,7 +47,7 @@ This is a lightweight Python script that helps SOC Analysts and Cybersecurity pr
 > 185.107.56.57
 > 209.126.136.5
 
-5. Run the script:
+6. Run the script:
    > python app.py
 
 📬 Contact
