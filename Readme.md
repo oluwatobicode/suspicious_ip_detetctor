@@ -60,7 +60,8 @@ Example:
 python app.py
 ```
 
-📬 Contact
+# 📬 Contact
+
 Feel free to reach out if you have suggestions or want to collaborate!
 
 - LinkedIn: https://www.linkedin.com/in/treasure-odetokun-107a21231/
