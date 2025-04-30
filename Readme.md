@@ -13,10 +13,10 @@ This is a lightweight Python script that helps SOC Analysts and Cybersecurity pr
 
 # 📸 Screenshots
 
-- !Reading IP addresses and scanning:
-  (screenshots/shot-one.png)
-- !Flagging Suspicious IPs and Saving to Blocklist:
-  (screenshots/shot-two.png)
+- Reading IP addresses and scanning:  
+![Reading IP addresses and scanning](./screenshots/shot-one.png)
+- Flagging Suspicious IPs and Saving to Blocklist:  
+![Flagging Suspicious IPs and Saving to Blocklist](./screenshots/shot-two.png)
 
 # 🛠️ Tech Stack
 
@@ -28,31 +28,41 @@ This is a lightweight Python script that helps SOC Analysts and Cybersecurity pr
 ⚙️ Setup Instructions
 
 1. Clone this repository or download the project files.
+
 2. Install the required dependencies:
 
-> pip install requests python-dotenv
+```shell
+pip install requests python-dotenv
+```
 
 3. Create a .env file in the root directory with the following:
 
-   > - API_KEY=your_abuseipdb_api_key
-   > - API_URL=https://api.abuseipdb.com/api/v2/check
+```shell
+API_KEY=your_abuseipdb_api_key
+API_URL=https://api.abuseipdb.com/api/v2/check
+```
 
 4. Create a api key on Abuse IPdb when you sign up there
 
-5.Create an Ip_addresses.txt file and add the IPs you want to check, one per line.
+5. Create an Ip_addresses.txt file and add the IPs you want to check, one per line.
 
-> Example:
+Example:
 
-- 8.8.8.8
-- 1.1.1.1
-- 185.107.56.57
-- 209.126.136.5
+```
+8.8.8.8
+1.1.1.1
+185.107.56.57
+209.126.136.5
+```
 
 6. Run the script:
-   > python app.py
+```shell
+python app.py
+```
 
-📬 Contact
+# 📬 Contact
+
 Feel free to reach out if you have suggestions or want to collaborate!
 
-- LinkedIn : https://www.linkedin.com/in/treasure-odetokun-107a21231/
-- Twitter : https://x.com/Oluwatobicodes
+- LinkedIn: https://www.linkedin.com/in/treasure-odetokun-107a21231/
+- Twitter: https://x.com/Oluwatobicodes
